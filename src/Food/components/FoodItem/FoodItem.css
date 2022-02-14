@@ -1,0 +1,27 @@
+.food-card {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.food-card  .barcode,
+.food-card  .barcode>*{
+  width: 100%;
+}
+
+.food-card .card-title{ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.food-card .card-title .title-text{
+white-space: nowrap; 
+  width: 100px; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.food-card .card-title button{
+  margin: 5px;
+}

@@ -1,0 +1,35 @@
+
+header {
+  height: 60px;
+  background: #1b1c1d;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.menu-icon {
+  
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.app-name{
+  
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+}
+@media screen and (min-width:756px) {
+    .menu-icon {
+        display: none;
+    }
+}
+@media screen and (max-width: 756px) {
+  
+  .app-name{
+      font-size: 1.2rem;
+  }
+  
+}
